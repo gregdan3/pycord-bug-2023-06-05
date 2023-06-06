@@ -1,0 +1,11 @@
+[tool.pdm]
+
+[project]
+name = "example"
+version = "0.1.0"
+description = ""
+authors = [
+  { name = "Gregory Danielson III", email = "gregory.danielson3@gmail.com" },
+]
+dependencies = ["py-cord"]
+requires-python = ">=3.10"

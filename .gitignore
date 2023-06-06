@@ -1,0 +1,5 @@
+*.egg-info
+.pdm-python
+.python-version
+__pycache__
+__pypackages__

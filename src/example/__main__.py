@@ -7,7 +7,6 @@ from discord.ext import commands
 
 TOKEN = "YOUR_TOKEN"
 LOOP = asyncio.new_event_loop()
-
 BOT = commands.Bot(
     loop=LOOP,
     command_prefix="/",

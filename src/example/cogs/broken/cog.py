@@ -12,6 +12,7 @@ class BrokenCog(commands.Cog):
     def __init__(self):
         self.index = 0
         self.printer.start()
+        print("Broken cog initialized")
 
     def cog_unload(self):
         self.printer.cancel()

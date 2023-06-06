@@ -8,6 +8,7 @@ class WorkingCog(commands.Cog):
 
     def __init__(self):
         self.index = 0
+        print("Working cog initialized")
 
     def cog_unload(self):
         self.printer.cancel()
